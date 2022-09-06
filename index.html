@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>goit-markup-hw-04</title>
+  <title>goit-markup-hw-05</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -56,7 +56,7 @@
         <h1 class="effective-solutions-title">
           Ефективні рішення<br> для вашого бізнесу
         </h1>
-        <button type="button" class="effective-solutions-buttons">
+        <button class="effective-solutions-buttons" type="button" data-modal-open>
           Замовити послугу
         </button>
       </div>
@@ -387,6 +387,18 @@
       </div>
     </div>
   </footer>
+
+  <!-- Modal window -->
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <button type="button" class="close-btn" aria-label="close modal window" data-modal-close>
+        <svg width="30" height="30">
+          <use href="./images/svg-icons/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>
