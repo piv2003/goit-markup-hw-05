@@ -368,12 +368,14 @@ img {
   position: absolute;
   bottom: 0;
   left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
   width: 100%;
-  padding: 27px 0px;
   font-weight: 700;
   line-height: calc(16/14);
   letter-spacing: 0.03em;
-  text-align: center;
   text-transform: uppercase;
   color: var(--basic-white);
   background-color: var(--our-business-text);
